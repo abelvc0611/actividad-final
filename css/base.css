@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap');
+
+:root {
+  --color-primario: #001c58;    
+  --color-dorado: #fea000;      
+  --color-fondo: #f4f6f9;       
+  --color-tarjeta: #ffffff;     
+  --color-texto: #1e293b;       
+  --color-texto-mutado: #64748b;
+  --sombra-burbuja: 0 10px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+  --sombra-hover: 0 20px 30px -10px rgba(0, 0, 0, 0.15);
+  --radio-burbuja: 20px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  line-height: 1.7;
+}
+
+a {
+  text-decoration: none;
+}

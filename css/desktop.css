@@ -1,0 +1,22 @@
+
+@media screen and (min-width: 1024px) {
+  .bloque-a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 3rem;
+  }
+
+  .bloque-a h1 {
+    margin-bottom: 0;
+  }
+
+  .nav-principal ul {
+    gap: 15px;
+  }
+
+  .contenido-principal {
+    max-width: 1200px;
+    margin: 30px auto;
+  }
+}
